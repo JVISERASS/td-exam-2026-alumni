@@ -54,6 +54,3 @@ jobs:
       run: |
         gcloud container clusters get-credentials $GKE_CLUSTER --zone $GKE_ZONE
         <placeholder - add all necessary lines>
-
-
-    
