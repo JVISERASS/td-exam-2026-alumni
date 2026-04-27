@@ -5,6 +5,6 @@ metadata:
 spec:
   clusterIP: None
   selector:
-    app: storage
+    app: router
   ports:
     - port: 3000
