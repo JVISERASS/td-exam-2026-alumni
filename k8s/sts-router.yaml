@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: router
-          image:  gcr.io/${GCP_PROJECT_ID}/router
+          image:  gcr.io/icai-494419/router
           ports:
             - containerPort: 3000
           volumeMounts:

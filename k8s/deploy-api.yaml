@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: api-gw
-          image: gcr.io/${GCP_PROJECT_ID}/api-gw
+          image: gcr.io/icai-494419/api-gw
           ports:
             - containerPort: 3000
