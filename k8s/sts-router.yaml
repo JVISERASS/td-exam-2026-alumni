@@ -25,7 +25,8 @@ spec:
     - metadata:
         name: router-data
       spec:
-        accessModes: <placeholder>
+        accessModes:
+          - ReadWriteOnce
         storageClassName: standard
         resources:
           requests:
