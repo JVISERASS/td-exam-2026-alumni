@@ -7,23 +7,23 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: <placeholder>
+      app: router
   template:
     metadata:
       labels:
-        app: <placeholder>
+        app: router
     spec:
       containers:
         - name: router
-          image: <placeholder>
+          image:  gcr.io/${GCP_PROJECT_ID}/router:latest
           ports:
             - containerPort: 3000
           volumeMounts:
-            - name: <placeholder>
+            - name: router-data
               mountPath: /data
   volumeClaimTemplates:
     - metadata:
-        name: <placeholder>
+        name: router-data
       spec:
         accessModes: <placeholder>
         storageClassName: standard
