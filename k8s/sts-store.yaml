@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: storage
-          image: gcr.io/${GCP_PROJECT_ID}/storage:latest
+          image: gcr.io/${GCP_PROJECT_ID}/storage
           ports:
             - containerPort: 3000
           volumeMounts:
