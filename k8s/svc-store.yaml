@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: svc-storage
 spec:
-  clusterIP: none
+  clusterIP: None
   selector:
     app: storage
   ports:
