@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: svc-api
 spec:
-  type: loadBalancer
+  type: LoadBalancer 
   selector:
     app: api-gw
   ports:
